@@ -8,8 +8,7 @@ A multi-tenant microservices platform for subscription management and usage-base
 ## Overview
 
 Most billing systems look simple until you have to handle **multiple tenants sharing
-infrastructure, usage-based pricing, failed payments, and automated invoice generation** —
-all without one tenant's data or traffic ever leaking into another's. This project solves that.
+infrastructure, usage-based pricing, failed payments, and automated invoice generation** all without one tenant's data or traffic ever leaking into another's. This project solves that.
 
 Core problems tackled:
 - **Tenant isolation** — every request is scoped to a tenant via JWT claims, enforced at the gateway and service level
