@@ -1,8 +1,6 @@
 # BillSphere — Multi-Tenant SaaS Subscription & Billing Platform
 
-A multi-tenant microservices platform for subscription management and usage-based billing —
-modeled on how real SaaS companies (Stripe Billing, Chargebee, Razorpay) handle tenant
-isolation, metered usage, and automated invoicing at scale.
+A multi-tenant microservices platform for subscription management and usage-based billing modeled on how real SaaS companies (Stripe Billing, Chargebee, Razorpay) handle tenant isolation, metered usage, and automated invoicing at scale.
 
 
 ---
@@ -53,3 +51,4 @@ Core problems tackled:
 - [ ] Razorpay webhook integration for payment collection
 - [ ] Automated tenant suspension on repeated payment failure
 
+---
